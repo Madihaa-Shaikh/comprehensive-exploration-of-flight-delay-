@@ -1,0 +1,17 @@
+Read Flight data
+Print all features 
+The goal is to reduce the cost of flight delay. Which target feature do we choose and why?
+How can we determine how strong is the influence of WEATHER_DELAY on ARR_DELAY?
+Delete ARR_DELAY and String data
+Set thetargetofa delay>15 minutesto1 otherwise to 0,
+How linear correlated are the features to the target?
+What are the requirements of Linear Regression?
+Test Normal Distribution (with Kolmogorov-Smirnov test) of the feature ARR_DELAY (use only the 100 data sets) and print the histogram
+Perform a nonlinear transformation of the values and check again for normal distribution
+Use a decision tree for prediction.
+Printmean squared error and R2 score.
+To compare different models create a dictionary of the models · LinearRegression · Decision Tree · MLP (MLPRegressor)
+Fit all thesemodelsandprintRMSE train, RMSE testandR2 score fortestdataasHTML table
+Use for the classification of the flight delay Logistic Regression, Decision Tree and Gradient Boosting
+Compare the classification methods using AUC, Recall, F1 score
+Print the ROC for all models 19  Print the Confusion Matrices for all models 
